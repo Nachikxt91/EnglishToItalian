@@ -1,0 +1,142 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# PyTorch model files and weights
+weights/
+*.pth
+*.pt
+*.pkl
+*.bin
+
+# Tokenizers
+tokenizer_*.json
+*.model
+*.vocab
+
+# Datasets and data files
+data/
+datasets/
+*.csv
+*.tsv
+*.txt
+*.json
+!config.json
+*.h5
+*.hdf5
+
+# HuggingFace cache
+hf_cache/
+.cache/
+transformers_cache/
+
+# Tensorboard logs
+runs/
+logs/
+tensorboard/
+*.tfevents.*
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+.tmp/
+
+# GPU/CUDA cache
+.nv/
+
+# Experiment outputs
+outputs/
+results/
+checkpoints/
+saved_models/
+
+# Large files that shouldn't be tracked
+*.gz
+*.zip
+*.tar
+*.rar
+
+# Configuration files with secrets (if any)
+.env.local
+.env.production
+secrets.json
+
+# PyTorch Lightning logs
+lightning_logs/
+
+# MLflow
+mlruns/
+
+# Weights & Biases
+wandb/
+
+# Custom cache files
+preprocessed_data_*.pkl
+cache/
+*.cache
+
+# Model architecture visualization files
+*.png
+*.jpg
+*.svg
+!architecture_diagram.png
+
+# Training logs and metrics
+training_logs/
+metrics/
+plots/
+
+# Language model specific
+input.txt
+output.txt
+more.txt
+best_model.pt
